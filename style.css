@@ -1,0 +1,120 @@
+:root{
+    --color-primary-100: hsl(225, 100%, 94%);
+    --color-primary-400: hsl(245, 75%, 52%);
+  
+    --color-neutral-100: hsl(225, 100%, 98%);
+    --color-neutral-400: hsl(223, 36%, 47%);
+    --color-neutral-700: hsl(223, 47%, 23%);
+}
+
+body{
+    font-family: "Red Hat Display", sans-serif;
+    font-size: 16px;
+    background:   var(--color-primary-100) repeat-x
+    url(/pattern-background-desktop.svg);
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    max-width: 25rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 2rem;
+}
+
+.container > p{
+    max-width: 17rem;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--color-neutral-400);
+}
+
+.listener{
+    max-width: 100%;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+h1{
+    color: var( --color-neutral-700);
+}
+
+h2{
+    font-size: 1rem;
+}
+
+.plan-img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 20rem;
+    background-color: var(--color-neutral-100);
+    border-radius: 1rem;
+    margin: 0 auto 1rem auto;
+}
+
+.plan-img img, a{
+    align-self: center;
+}
+
+.plan-img a{
+    color: var(--color-primary-400);
+    font-weight: 900;
+}
+
+.plan-img a:hover{
+    color: rgba(133, 81, 182, 0.932);
+    text-decoration: none;
+
+}
+
+.plan h2{
+    margin: 1rem 0 0.5rem 0;
+    color: var(--color-neutral-700);
+}
+
+.plan p{
+    margin: 0 0 1rem 0;
+    color: var(--color-neutral-400);
+    
+}
+
+.action-call{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.action-call p{
+    background-color: var(--color-primary-400); 
+    color: var(--color-neutral-100);
+    width: 20rem;
+    padding: 12px;
+    border-radius: 1rem;
+    margin: 1rem auto 1rem auto;
+    text-decoration: none;
+    box-shadow: 1px 8px 7px 0px rgba(224, 232, 255, 0.973);
+    font-weight: 900;
+}
+
+
+.cancel-order{
+    color: var(--color-neutral-400);
+    font-weight: 900;
+    text-decoration: none;
+    margin-bottom: 2rem;
+}
+
+.action-call a:hover{
+    color: black;
+}
+
+
+
+

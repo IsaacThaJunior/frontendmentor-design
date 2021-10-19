@@ -20,6 +20,14 @@ section{
     min-height: 100vh;
 }
 
+h1{
+    color: var( --color-neutral-700);
+}
+
+h2{
+    font-size: 1rem;
+}
+
 .container{
     max-width: 25rem;
     text-align: center;
@@ -38,14 +46,6 @@ section{
     max-width: 100%;
     border-top-left-radius: 2rem;
     border-top-right-radius: 2rem;
-}
-
-h1{
-    color: var( --color-neutral-700);
-}
-
-h2{
-    font-size: 1rem;
 }
 
 .plan-img{
@@ -102,6 +102,20 @@ h2{
     font-weight: 900;
 }
 
+.btn-proceed{
+    color: white;
+    padding: 10px 4rem;
+    border-radius: 10px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    text-decoration: none;
+    background-color: rgba(72, 9, 219, 0.932);
+    box-shadow: 0 12px 15px rgba(0, 0, 255, .2);
+}
+
+.btn-proceed:hover{
+    color: var(--color-neutral-100);
+}
 
 .cancel-order{
     color: var(--color-neutral-400);
@@ -113,7 +127,5 @@ h2{
 .action-call a:hover{
     color: black;
 }
-
-
 
 
